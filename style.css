@@ -23,3 +23,7 @@ img {
 #navbar {
    background-color: white;
 }
+div {
+   margin: 0;
+   padding: 0;
+}
