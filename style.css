@@ -3,8 +3,8 @@ html, body {
 }
 
 body {
-   background: rgb(255,254,0);
-   background: linear-gradient(0deg, rgba(255,254,0,1) 0%, rgba(255,188,45,1) 69%, rgba(255,174,0,1) 100%); 
+    background: rgb(255,254,0);
+    background: linear-gradient(0deg, rgba(255,254,0,1) 0%, rgba(255,188,45,1) 40%, rgba(255,174,0,1) 75%, rgba(255,255,255,1) 100%); 
 }
 
 img {
