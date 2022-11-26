@@ -11,3 +11,15 @@ img {
   width:300px;
   height:200px;
 }
+
+.unselected {
+   text-decoration: none;
+}
+
+.selected {
+   color: orange;
+}
+
+#navbar {
+   background-color: white;
+}
