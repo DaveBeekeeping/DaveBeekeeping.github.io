@@ -46,6 +46,10 @@ img {
   height: fit-content;
   margin-top: 5px;
   width: fit-content;
-  background-color: rgb(197, 197, 197);
+  background-color: rgb(245, 220, 151);
   border-radius: 14px;
+}
+
+a:hover {
+  color: rgb(243, 188, 85);
 }
