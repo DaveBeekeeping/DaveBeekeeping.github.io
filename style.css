@@ -53,3 +53,7 @@ img {
 a:hover {
   color: rgb(243, 188, 85);
 }
+
+main {
+  margin-left: 0.3rem;
+}
