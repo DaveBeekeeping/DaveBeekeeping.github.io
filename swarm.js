@@ -1,21 +1,28 @@
-const prevBtn = document.querySelector(".prev");
-const nextBtn = document.querySelector(".next");
-const imageContainer = document.querySelector(".image-container");
+//credit to w3schools.com
 
-let currentIndex = 0;
-const images = imageContainer.querySelector("img");
-const totalImages = images.length;
+let slideIndex = 1;
+showSlides(slideIndex);
 
-prevBtn.addEventListener("click", () => {
-    currentIndex = (currentIndex - 1 + totalImages) % totalImages;
-    showImage(currentIndex);
-});
-
-nextBtn.addEventListener("click", () => {
-    currentIndex = (currentIndex + 1) % totalImages;
-    showImage(currentImage)
-});
-
-function showImage(index) {
-    imageContainer.style.transform = `translateX(-${index * 100}%)`;
+function plusSlides(n) {
+  showSlides(slideIndex += n);
 }
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+} 
