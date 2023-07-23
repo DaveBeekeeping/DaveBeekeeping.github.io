@@ -82,3 +82,24 @@ a:hover {
 main {
   margin-left: 1.2rem;
 }
+
+.image-container {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.arrows {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.arrows span {
+  cursor: pointer;
+  font-size: 20px;
+  padding: 0 10px;
+}
