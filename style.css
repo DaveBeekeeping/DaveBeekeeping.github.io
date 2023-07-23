@@ -65,7 +65,7 @@ body {
 
 .unselectedButton,
 .selectedButton {
-  border: 1px solid rgb(255, 232, 170);
+  border: 1px solid rgb(255, 227, 150);
   outline: none;
   margin-left: 20%;
   height: fit-content;
