@@ -17,8 +17,8 @@ body {
 }
 
 img {
-  width: 300px;
-  height: 200px;
+  width: 20%;
+  height: 15%;
 }
 
 .unselected {
@@ -55,5 +55,5 @@ a:hover {
 }
 
 main {
-  margin-left: 0.8rem;
+  margin-left: 1.2rem;
 }
