@@ -65,14 +65,14 @@ body {
 
 .unselectedButton,
 .selectedButton {
-  border: none;
+  border: 1px solid rgb(255, 232, 170);
   outline: none;
   margin-left: 20%;
   height: fit-content;
   margin-top: 5px;
   width: fit-content;
-  background-color: rgb(245, 220, 151);
-  border-radius: 14px;
+  background-color: rgb(255, 232, 170);
+  border-radius: 0px;
 }
 
 a:hover {
