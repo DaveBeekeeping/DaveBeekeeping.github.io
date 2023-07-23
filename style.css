@@ -21,12 +21,18 @@ body {
     width: 300px;
     height: 200px;
   }
+  .image-container {
+    width: 300px;
+  }
 }
 
 @media (max-width: 700px) {
   img {
     width: 200px;
     height: 100px;
+  }
+  .image-container {
+    width: 200px;
   }
 }
 
@@ -35,6 +41,9 @@ body {
     width: 100%;
     height: 200px;
   }
+  .image-container {
+    width: 100%;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -42,6 +51,9 @@ body {
     img {
       width: 250px;
       height: 150px;
+    }
+    .image-container {
+      width: 250px;
     }
   }
 }
@@ -86,7 +98,6 @@ main {
 .image-container {
   display: flex;
   overflow: hidden;
-  width: 100%;
 }
 
 .image-container img {
