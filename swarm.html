@@ -1,6 +1,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="swarm.css" />
     <title>Ringwood & Burley beekeeping by Dave | swarms</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="apple-touch-icon" sizes="60x60" href="img/icons/apple-touch-icon.png" />
@@ -26,49 +27,89 @@
       </button>
     </div>
     <main>
-      <p>What is a bee swarm?</p>
-      <div class="sliddotcont">
-        <div class="slideshow-container">
-          <div class="mySlides fade">
-            <div class="numbertext">1 / 5</div>
-            <img src="img/wood.jpg" style="width: 100%" />
-            <div class="text">On a tree branch</div>
+      <!--
+        Note:
+        - Do not remove the '<br/>' tags, they indicate a new line and are usefull for the web browser.
+        - Do not remove the '<h1>' tags, they indicate a title, if you want the title to apper smaller, decrease the number in '<h1>' and '<h1/>' down. 1 is the biggest, 5 is the smallest.
+        - The '<!——' and '——>' are used to indicate a comment. This text will NOT appear on the website.
+        - Add any text in the '<p>' tag below.
+      -->
+      <div class="leftside">
+        <p>
+          <h1>What is a bee swarm?</h1>
+          A large number of bees – up to 15 or 20,000 from the originating colony seeking a new<br/>
+          home. Sometimes seen in flight as a large 'cloud' of flying insects – which may be quite<br/>
+          noisy and scary to the observer, but a swarm might be found more often temporarily<br/>
+          resting in a large cluster on a bush, car, fence, wall, or any other object.<br/>
+          <h1>Why do they swarm?</h1>
+          Swarming is the natural way for bees to propagate and expand the species.<br/>
+          <h1>When do they swarm?</h1>
+          Usually around May – but a few weeks either side is not unheard of. Since the start of<br/>
+          spring the queen has been laying up to a 1,000 eggs each day, and the colony starts to get<br/>
+          very crowded. This triggers the bees to raise a new queen and the old queen departs from<br/>
+          the hive with a significant number of older bees to form a swarm.<br/>
+          <h1>Where do they go?</h1>
+          The bees evolved over thousands of years to make their natural homes in a hole in a tree<br/>
+          or cliff, but since we no longer have swathes of forest for them to live in, the closest to their<br/>
+          natural habitat that they will find (unless captured and hived by a beekeeper) is a hole in<br/>
+          someones roof, wall, chimney, post box, bird box, shed – anywhere with a bit of protection<br/>
+          for them to set up home! As soon as they have settled, the bees will start producing<br/>
+          beeswax and making new combs. The old queen will start laying eggs within a few days<br/>
+          and the new colony will work overtime to increase their numbers and store enough food to<br/>
+          get them through the following winter.<br/>
+          <h1>What about the original old colony?</h1>
+          Still comprising of up to 20,000 younger bees, the new queen will hatch out a few days<br/>
+          after the swarm has left and, after a successful mating flight, will start laying eggs at a<br/>
+          prodigious rate. By August the colony may number around 60,000 individuals!<br/>
+          <h1>Capturing a swarm.</h1>
+          Depending on the location of the swarm, a beekeeper will aim to get the bees into a<br/>
+          container that can be sealed for transportation. If easily accessible, it may be possible to<br/>
+          knock the swarm into a cardboard or wooden box and leave to settle for a while. Less<br/>
+          accessible swarms may require the use of a bee vacuum to suck them into a container.<br/>
+          Swarms that are already in very difficult locations – chimneys, cavity walls, etc. - are likely<br/>
+          to be beyond the capabilities of most beekeepers and may require more specialist<br/>
+          attention to remove.
+        </p>
+      </div>
+      <div class="rightside">
+        <div class="sliddotcont">
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 5</div>
+              <img src="img/wood.jpg" style="width: 100%" />
+              <div class="text">On a tree branch</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 5</div>
+              <img src="img/fencepost.jpeg" style="width: 100%" />
+              <div class="text">On a fencepost</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 5</div>
+              <img src="img/box.JPG" style="width: 100%" />
+              <div class="text">On the side of a box</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">4 / 5</div>
+              <img src="img/tree.jpg" style="width: 100%" />
+              <div class="text">In a tree</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">5 / 5</div>
+              <img src="img/tree2.jpg" style="width: 100%" />
+              <div class="text">In a tree</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
           </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">2 / 5</div>
-            <img src="img/fencepost.jpeg" style="width: 100%" />
-            <div class="text">On a fencepost</div>
+          <br />
+          <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
           </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">3 / 5</div>
-            <img src="img/box.JPG" style="width: 100%" />
-            <div class="text">On the side of a box</div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">4 / 5</div>
-            <img src="img/tree.jpg" style="width: 100%" />
-            <div class="text">In a tree</div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">5 / 5</div>
-            <img src="img/tree2.jpg" style="width: 100%" />
-            <div class="text">In a tree</div>
-          </div>
-
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <br />
-        <div style="text-align: center">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
-          <span class="dot" onclick="currentSlide(4)"></span>
-          <span class="dot" onclick="currentSlide(5)"></span>
         </div>
       </div>
     </main>
