@@ -21,9 +21,6 @@ body {
     width: 180;
     height: 120;
   }
-  #navbar {
-    height: 50px;
-  }
 }
 
 .unselected {
@@ -37,10 +34,11 @@ body {
 
 #navbar {
   background-color: white;
-  height: 30px;
+  /*height: 30px;*/
+  padding: 0;
+  padding-bottom: 5px;
   width: 100%;
   margin: 0;
-  padding: 0;
 }
 
 .unselectedButton,
