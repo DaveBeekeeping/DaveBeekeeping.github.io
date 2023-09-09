@@ -15,6 +15,9 @@ body {
     height: 188px;
     border: 2px solid black;
   }
+  .aspect {
+    width: 200px;
+  }
 }
 
 @media (max-width: 600px) {
