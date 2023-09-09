@@ -6,6 +6,7 @@ main {
   margin-top: 2rem;
   position: absolute;
   right: 2rem;
+  /*float: right;*/
 }
 
 .slideshow-container {
