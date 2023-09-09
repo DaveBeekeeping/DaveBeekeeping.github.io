@@ -11,12 +11,16 @@ body {
 
 @media (min-width: 600px) {
   img {
+    width: 250px;
+    height: auto;
     border: 2px solid black;
   }
 }
 
 @media (max-width: 600px) {
   img {
+    width: 150px;
+    height: auto;
     border: 2px solid black;
   }
 }
