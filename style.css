@@ -87,3 +87,19 @@ footer {
 .lead {
   font-size: 1.1em;
 }
+
+.price-container {
+  border: 1px solid black;
+  width: min-content;
+  margin: 0.1em;
+}
+
+.price-container-container {
+  display: flex;
+}
+
+.price p,
+.price-desc p {
+  text-align: center;
+  margin: 0;
+}
