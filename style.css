@@ -112,3 +112,7 @@ li a:hover {
 .active {
   background-color: hsl(44, 100%, 62%);
 }
+
+div {
+  margin: 1cm 0;
+}
