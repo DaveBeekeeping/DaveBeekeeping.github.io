@@ -78,3 +78,11 @@ li a:hover {
 div {
   margin: 0 0.5cm;
 }
+
+main {
+  min-height: calc(100vh - 4rem);
+}
+
+footer {
+  height: 4rem;
+}

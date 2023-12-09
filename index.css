@@ -7,14 +7,6 @@ main {
     box-sizing: border-box;
 }
   
-main {
-    min-height: calc(100vh - 4rem);
-}
-  
-footer {
-    height: 4rem;
-}
-  
 #about {
     max-width: 25em;
 }
