@@ -30,15 +30,6 @@ body {
   }
 }
 
-.unselected {
-  text-decoration: none;
-}
-
-.selected {
-  color: orange;
-  text-decoration: orange underline;
-}
-
 #navbar {
   background-color: white;
   /*height: 30px;*/
@@ -46,18 +37,6 @@ body {
   padding-bottom: 5px;
   width: 100%;
   margin: 0;
-}
-
-.unselectedButton,
-.selectedButton {
-  border: 1px solid rgb(255, 227, 150);
-  outline: none;
-  margin-left: 20%;
-  height: fit-content;
-  margin-top: 5px;
-  width: fit-content;
-  background-color: rgb(255, 232, 170);
-  border-radius: 0px;
 }
 
 a:hover {
@@ -103,4 +82,35 @@ footer {
 .price-desc p {
   text-align: center;
   margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: hsl(44, 100%, 62%);
 }
