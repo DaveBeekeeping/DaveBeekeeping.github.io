@@ -20,6 +20,9 @@ body {
   .aspect {
     width: 200px;
   }
+  .aspect2 {
+    width: 141px;
+  }
 }
 
 @media (max-width: 600px) {
