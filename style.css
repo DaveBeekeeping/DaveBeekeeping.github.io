@@ -30,18 +30,16 @@ body {
   }
 }
 
+/*
 #navbar {
   background-color: white;
-  /*height: 30px;*/
+  /*height: 30px;*//*
   padding: 0;
   padding-bottom: 5px;
   width: 100%;
   margin: 0;
 }
-
-a:hover {
-  color: rgb(243, 188, 85);
-}
+*/
 
 main {
   margin-left: 1.2rem;
