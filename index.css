@@ -1,42 +1,42 @@
 main {
     margin-left: 1.2rem;
     display: flex;
-  }
+}
   
-  * {
+* {
     box-sizing: border-box;
-  }
+}
   
-  main {
+main {
     min-height: calc(100vh - 4rem);
-  }
+}
   
-  footer {
+footer {
     height: 4rem;
-  }
+}
   
-  #about {
+#about {
     max-width: 25em;
-  }
+}
   
-  .lead {
+.lead {
     font-size: 1.1em;
-  }
+}
   
-  .price-container {
+.price-container {
     border: 1px solid black;
     width: min-content;
     margin: 0.1em;
-  }
+}
   
-  .price-container-container {
+.price-container-container {
     display: flex;
     flex-wrap: wrap;
     width: 1000px;
-  }
+}
   
-  .price p,
-  .price-desc p {
+.price p,
+.price-desc p {
     text-align: center;
     margin: 0;
-  }
+}
