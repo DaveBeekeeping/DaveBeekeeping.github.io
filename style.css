@@ -36,7 +36,7 @@ body {
 /*
 #navbar {
   background-color: white;
-  /*height: 30px;*//*
+  /*height: 30px;*/ /*
   padding: 0;
   padding-bottom: 5px;
   width: 100%;
@@ -68,11 +68,11 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: hsl(44, 100%, 50%);
 }
 
-.active {
-  background-color: hsl(44, 100%, 62%);
+.selected {
+  background-color: hsl(44, 100%, 50%);
 }
 
 div {
