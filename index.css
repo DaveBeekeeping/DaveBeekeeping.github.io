@@ -1,14 +1,15 @@
-#abtswmcont {
-  margin-left: 1.2rem;
-  display: flex;
+@media (min-width: 1111px) {
+  #abtswmcont {
+    margin-left: 1.2rem;
+    display: flex;
+  }
+  #about {
+    max-width: 45%;
+  }
 }
 
 * {
   box-sizing: border-box;
-}
-
-#about {
-  max-width: 45%;
 }
 
 .lead {

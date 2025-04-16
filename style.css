@@ -28,7 +28,7 @@ body {
 @media (max-width: 600px) {
   img {
     width: 150px;
-    height: auto;
+    height: 123px;
     border: 2px solid black;
   }
 }
