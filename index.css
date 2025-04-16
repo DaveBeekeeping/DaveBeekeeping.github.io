@@ -1,34 +1,33 @@
-main {
-    margin-left: 1.2rem;
-    display: flex;
+#abtswmcont {
+  margin-left: 1.2rem;
+  display: flex;
 }
-  
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-  
+
 #about {
-    max-width: 25em;
+  max-width: 45%;
 }
-  
+
 .lead {
-    font-size: 1.1em;
+  font-size: 1.1em;
 }
-  
+
 .price-container {
-    border: 1px solid black;
-    width: min-content;
-    margin: 0.1em;
+  border: 1px solid black;
+  width: min-content;
+  margin: 0.1em;
 }
-  
+
 .price-container-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
 }
-  
+
 .price p,
 .price-desc p {
-    text-align: center;
-    margin: 0;
+  text-align: center;
+  margin: 0;
 }
